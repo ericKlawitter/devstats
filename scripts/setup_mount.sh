@@ -4,7 +4,7 @@ mkdir -p /mount/data/src/
 chmod -R a+rw /mount/data
 
 mkdir -p /mount/data/devstats_repos/knative
-git clone https://github.com/knative/serving.git /mount/data/devstats_repos/knative
+git clone https://github.com/knative/serving.git /mount/data/devstats_repos/knative/serving
 
 cd /mount/data/src/
 #TODO just move from GOTPATH and run make here, update dockerfile, after consolidating to one repo
