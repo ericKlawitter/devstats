@@ -3,7 +3,7 @@
 mkdir -p /mount/data/src/
 chmod -R a+rw /mount/data
 
-mkdir -p /mount/data/devstats_repos/knative
+mkdir -p /mount/data/devstats_repos/knative/serving
 git clone https://github.com/knative/serving.git /mount/data/devstats_repos/knative/serving
 
 cd /mount/data/src/
